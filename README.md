@@ -33,3 +33,11 @@ $export WEB3_INFURA_PROJECT_ID="your_infura_project_id"
 ´´´
 $brownie run scripts/deploy.py --network goerli
 ´´´
+
+# Interact with the deployed smart-contract
+
+The script [](./scripts/fund_withdraw.py) funds the smart-contract with a small ammount and then withdraws it.
+
+´´´
+$brownie run scripts/fund_withdraw.py --network goerli
+´´´
