@@ -1,7 +1,7 @@
 # Install modules
 ```
-sudo python3 -m pip install --user pipx
-sudo python3 -m pipx ensurepath
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
 pipx install eth-brownie
 sudo apt install python3.10-venv
 sudo npm install -g ganache-cli
